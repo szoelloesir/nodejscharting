@@ -3,7 +3,7 @@ const annotationPlugin = require('chartjs-plugin-annotation');
 const { ChartJSNodeCanvas } = require('./ChartJsNodeCanvas');
 const express = require('express')
 const app = express()
-const port = 3000;
+const port = 80;
 
 const canvases = {};
 
